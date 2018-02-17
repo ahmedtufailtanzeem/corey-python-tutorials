@@ -21,3 +21,7 @@ while True:
     if x % 25 == 0:
         break
     x += 1
+
+for index in range(1, 3):
+    for character in 'ab':
+        print(f'{index} : {character}')

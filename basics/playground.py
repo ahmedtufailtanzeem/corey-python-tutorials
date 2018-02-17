@@ -16,3 +16,7 @@ if undefined:
     print('value is undefined')
 else:
     print('value is defined')
+
+month = 12
+if not 1 <= month <= 12:
+    print('came inside')

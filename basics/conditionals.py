@@ -34,6 +34,9 @@ if condition:
 else:
     print("condition not met")
 
+if not False:
+    print("i used not")
+
 
 
 
