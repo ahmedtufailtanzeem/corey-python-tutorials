@@ -47,3 +47,25 @@ print(min(scores))
 print(max(scores))
 print(sum(scores))
 print(sum(scores))
+
+for items in scores:
+    print(items)
+
+for index, items in enumerate(scores):
+    print(index, items)
+
+for index, items in enumerate(scores, start=2):
+    print(index, items)
+
+# check presence of element in list
+print(45 in scores)
+print(451 in scores)
+print(scores.index(10))
+# print(scores.index(101))  # ValueError if element not found
+
+print("list to string conversion")
+nums = ['1', '2', '3']
+nums_str = ':'.join(nums)
+print(nums)
+print(type(nums_str.split(':')))
+
